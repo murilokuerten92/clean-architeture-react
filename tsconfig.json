@@ -9,6 +9,9 @@
       "allowJs": true,
       "rootDir": "src",
       "baseUrl": "src",
+      "paths": {
+        "@/*": ["*"]
+      },
       "skipLibCheck": true,
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
